@@ -46,16 +46,16 @@ Para cada repositório, escolha uma prática ou dado de teste relevante e expliq
 
 ### Repositório 1 
 
-Repositório: `<URL_DO_REPOSITÓRIO>`
+Repositório: `https://github.com/microsoft/vscode`
 
-URL TestMiner: `<URL_NO_TESTMINER>`
+URL TestMiner: `https://andrehora.github.io/testminer/#microsoft/vscode`
 
-Explicação: `<SUA_EXPLICAÇÃO>`
+Explicação: `Com o TestMiner, podemos ver que no projeto do VS Code utilizam uma prática muito interessante, que é o smoke test, o qual busca testar se as funcionalidades mais críticas e básicas da aplicação estão funcionando. Tem como princípios ser superficial e rápido, ter ampla cobertura e pouca profundidade, ser executado logo após o build e de forma automática.`
 
 ### Repositório 2
 
-Repositório: `<URL_DO_REPOSITÓRIO>`
+Repositório: `https://github.com/Netflix/maestro`
 
-URL TestMiner: `<URL_NO_TESTMINER>`
+URL TestMiner: `https://andrehora.github.io/testminer/#Netflix/maestro`
 
-Explicação: `<SUA_EXPLICAÇÃO>`
+Explicação: `Na análise do TestMiner do Maestro, podemos ver a grande utilização de Test Fixtures, que são um estado fixo e já conhecido do ambiente ou dos dados necessários para garantir a execução do teste de forma consistente e repetível. Sua utilização é muito interessante, pois traz isolamento, reutilização, repetibilidade e facilidade de manutenção aos testes.`
