@@ -50,7 +50,14 @@ Repositório: `https://github.com/microsoft/vscode`
 
 URL TestMiner: `https://andrehora.github.io/testminer/#microsoft/vscode`
 
-Explicação: `Com o TestMiner, podemos ver que no projeto do VS Code utilizam uma prática muito interessante, que é o smoke test, o qual busca testar se as funcionalidades mais críticas e básicas da aplicação estão funcionando. Tem como princípios ser superficial e rápido, ter ampla cobertura e pouca profundidade, ser executado logo após o build e de forma automática.`
+Explicação: Com o TestMiner, podemos ver que no projeto do VS Code utilizam uma prática muito interessante, que é o smoke test, o qual busca testar se as funcionalidades mais críticas e básicas da aplicação estão funcionando. Tem como princípios ser superficial e rápido, ter ampla cobertura e pouca profundidade, ser executado logo após o build e de forma automática.
+
+Ex:
+<img width="700" height="388" alt="image" src="https://github.com/user-attachments/assets/d4960157-6358-45c9-9a67-9f831dcd652f" />
+
+Nesse teste ele faz um teste simple se um funcionalidade crucial, que é o terminal está abrindo, aceitando imputs e os executando.
+
+
 
 ### Repositório 2
 
@@ -58,4 +65,9 @@ Repositório: `https://github.com/Netflix/maestro`
 
 URL TestMiner: `https://andrehora.github.io/testminer/#Netflix/maestro`
 
-Explicação: `Na análise do TestMiner do Maestro, podemos ver a grande utilização de Test Fixtures, que são um estado fixo e já conhecido do ambiente ou dos dados necessários para garantir a execução do teste de forma consistente e repetível. Sua utilização é muito interessante, pois traz isolamento, reutilização, repetibilidade e facilidade de manutenção aos testes.`
+Explicação: Na análise do TestMiner do Maestro, podemos ver a grande utilização de Test Fixtures, que são um estado fixo e já conhecido do ambiente ou dos dados necessários para garantir a execução do teste de forma consistente e repetível. Sua utilização é muito interessante, pois traz isolamento, reutilização, repetibilidade e facilidade de manutenção aos testes.
+
+Ex:
+https://github.com/Netflix/maestro/blob/main/maestro-common/src/testFixtures/resources/fixtures/instances/sample-step-instance-failed.json
+
+Nesse fixture ele já deixa salvo uma instancia de um step falha para facilitar nos testes.
